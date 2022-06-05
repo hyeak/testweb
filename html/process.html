@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../image/samsung2.jpg">
+    <title>반도체 8대공정</title>
+
+    <style>
+        h2 {
+            font-size: 30px;
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+        </style>
+</head>
+<body>
+    <h2>반도체 8대공정</h2>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#웨이퍼 제조">웨이퍼 제조</a></li>
+      <li><a href="#산화공정">산화공정</a></li>
+      <li><a href="#포토공정">포토공정</a></li>
+      <li><a href="#식각공정">식각공정</a></li>
+      <li><a href="#증착&이온주입 공정">증착&이온주입 공정</a></li>
+      <li><a href="#금속배선공정">금속배선공정</a></li>
+      <li><a href="#EDS공정">EDS공정</a></li>
+      <li><a href="#패키징공정">패키징공정</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 id="웨이퍼 제조">웨이퍼 제조</h1>
+    <p>웨이퍼란? 반도체 집적회로를 만드는데 사용하는 주재료</p>
+    <ol>
+        <p>웨이퍼 만드는 법</p>
+        <li>잉곳(Ingot)만들기</li>
+        <li>얇은 웨이퍼를 만들기 위해 잉곳 절단하기(Wafer Slicing)</li>
+        <li>웨이퍼 표면 연마(Lapping&Polishing)하기</li>
+      </ol>
+  </article>
+
+  <article>
+      <h1 id="산화공정">산화공정</h1>
+      <p>웨이퍼 표면에 실리콘 산화막(SiO₂)을 형성해 트랜지스터의 기초를 만드는 공정</p>
+      <p>반도체 웨이퍼 열산화 방법에는 산소를 이용하는 건식산화와 산소와 수증기를 사용하는 습식산화가 있다.</p>
+  </article>
+
+  <article>
+      <h1 id="포토공정">포토공정</h1>
+      <p>웨이퍼 위에 반도체 회로를 그려 넣는 과정</p>
+      <p>흑백사진 인화와 비슷한 포토공정</p>
+      <ol>
+        <li>사진 원판의 역학을 하는 포토마스크 만들기</li>
+        <li>웨이퍼를 인화지로 만드는 감광액 도포</li>
+        <li>빛을 통해 웨이퍼에 회로를 그려 넣는 노광</li>
+        <li>회로 패턴을 형성하는 현상 공정</li>
+      </ol>
+  </article>
+
+  <article>
+      <h1 id="식각공정">식각공정</h1>
+      <p>반도체의 구조를 형성하는 패턴을 만드는 과정</p>
+      <p>동판화 에칭(Etching)기법과 비슷한 식각공정</p>
+      <p>불필요한 부분을 선택적으로 없애는 건식 식각</p>
+  </article>
+
+  <article>
+      <h1 id="증착&이온주입 공정">증착&이온주입 공정</h1>
+      <p>증착 공정 : 회로 간의 구분과 연결, 보호 역할을 하는 박막을 만드는 과정</p>
+      <p>이온 주입 공정 : 반도체가 전기적인 특성을 갖도록 만드는 과정</p>
+  </article>
+
+  <article>
+    <h1 id="금속배선공정">금속배선공정</h1>
+    <p>반도체 회로에 전기적 신호가 잘 전달 되도록 전기길을 연결하는 과정</p>
+    <p>반도체에 들어가는 금속 재료는 굉장히 까다로운 조건들을 갖추어야 한다.</p>
+</article>
+
+<article>
+    <h1 id="EDS공정">EDS공정</h1>
+    <p>전기적 특성검사를 통해 개별 칩들이 원하는 품질 수준에 도달했는지를 확인하는 공정</p>
+    <p>이 EDS공정은 반도체 수율 향상과 직결된 공정이다.</p>
+    <ol>
+        <p>EDS공정의 4단계</p>
+        <li>ET Test & WBI</li>
+        <li>Hot/Cold Test</li>
+        <li>Repair/Final Test</li>
+        <li>Inking</li>
+      </ol>
+</article>
+
+<article>
+    <h1 id="패키징공정">패키징공정</h1>
+    <p>외부환경으로부터 안전하게 보호받는 형태로 만드는 과정</p>
+    <ol>
+        <p>패키지공정의 단계</p>
+        <li>웨이퍼 절단</li>
+        <li>칩 접착(Die attach)</li>
+        <li>금속 연결</li>
+        <li>성형(Molding) 공정</li>
+      </ol>
+</article>
+</section>
+
+</body>
+</html>
